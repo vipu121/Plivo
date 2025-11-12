@@ -1,0 +1,25 @@
+# Ignore virtual environments
+plivo/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore models and cache
+models/
+*.onnx
+*.onnx.data
+*.int8.onnx
+
+# Ignore large data
+*.jsonl
+*.zip
+*.tar
+*.csv
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
